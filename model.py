@@ -1,11 +1,7 @@
 '''
 Sample predictive model.
 You must supply at least 4 methods:
-- fit: trains the model.
-- predict: uses the model to perform predictions.
-- save: saves the model.
-- load: reloads the model.
-'''
+- fit: trains the model.'''
 import pickle
 import numpy as np   # We recommend to use numpy arrays
 from os.path import isfile
